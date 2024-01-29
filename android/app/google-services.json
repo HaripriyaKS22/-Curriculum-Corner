@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "308467824350",
+    "firebase_url": "https://curriculumcorner-b8191-default-rtdb.firebaseio.com",
+    "project_id": "curriculumcorner-b8191",
+    "storage_bucket": "curriculumcorner-b8191.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308467824350:android:694e55566a39cb3e11b44f",
+        "android_client_info": {
+          "package_name": "com.example.curriculum_corner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFlrvMSQZniGx6RmE-s01JD4_mQ7F5iPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
