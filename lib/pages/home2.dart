@@ -404,10 +404,12 @@ class _home2State extends State<home2> {
                               Padding(
                                 padding: const EdgeInsets.only(top:5),
                                 child: Image.asset(
-                                 "lib/assets/pdf.png", // Replace with the path to your image
-                                 width: 90, // Set the desired width
-                                 height: 90, // Set the desired height
-                                 fit: BoxFit.cover, // Adjust the fit as needed
+                                 "lib/assets/pdf.png", 
+                                 width: 90,
+                                 height: 90, 
+                                 fit: BoxFit.cover, 
+                                 
+
                          ),
                               ),
                              SizedBox(height: 5),

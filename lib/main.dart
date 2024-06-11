@@ -85,9 +85,7 @@ class _curriculumCorner_mainState extends State<curriculumCorner_main> {
                     //  if( value != null && value is Map<Object?,Object?>){
                       if(value['staff'] == "true" && value['status']=="null"){
                         te = true;
-                        
-                        
-
+                       
                       }
                       else if(
                         value['staff'] == "true" && value['status']=="accept"

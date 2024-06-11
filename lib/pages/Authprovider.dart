@@ -36,7 +36,7 @@ class AuthProvide extends ChangeNotifier{
    
    {
 
-    // FirebaseAuth database= FirebaseAuth.instance;
+   
    
     final PhoneAuthCredential credential = PhoneAuthProvider.credential(
       verificationId: verificationIdimp!,
@@ -45,9 +45,9 @@ class AuthProvide extends ChangeNotifier{
         User? user = auth.currentUser;
         String uid = user!.uid;
         DatabaseReference ref = FirebaseDatabase.instance.ref("users/$uid");
-        DatabaseReference newuser = ref.push();
 
- 
+         DatabaseReference newuser = ref.push();
+
   await newuser.set({
     "fname": fname,
     "lname": lname,
